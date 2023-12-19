@@ -1,5 +1,6 @@
 import React from "react";
 import { grid } from "ldrs";
+import Sumadula from "../component/img/sumadula.png";
 grid.register();
 
 const Loader = () => {
@@ -7,7 +8,7 @@ const Loader = () => {
     <div className="flex justify-center items-center h-screen">
       <div>
         {/* Your loader animation */}
-        <l-grid size="100" speed="1.5" color="#FF5C00"></l-grid>
+        <img src={Sumadula} alt="wdwd" className="h-44 "/>
       </div>
     </div>
   );

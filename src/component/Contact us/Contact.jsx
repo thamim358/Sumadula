@@ -19,7 +19,7 @@ function ContactUs() {
         <div className="lg:px-12 pb-10">
           <div className="flex flex-col justify-center items-center md:flex-row mt-5">
           <div className="sm:p-12 lg:mt-5 p-4 mt-5 mr-10 justify-self-center md:justify-center">
-              <div className="  text-4xl sm:text-2xl  lg:text-4xl  pb-5 text-[#FF5C00] font-bold  wow fadeInUp">
+              <div className="  text-4xl sm:text-4xl lg:text-5xl  text-[#70C64F] font-bold text-sart wow fadeInUp pt-4 wow fadeInUp">
                 Contact us
               </div>
               <div className="flex mt-5 ">
@@ -27,18 +27,18 @@ function ContactUs() {
                   <IconMail
                     className=""
                     size={40}
-                    style={{ color: "#FF5C00" }}
+                    style={{ color: "#FFC500 " }}
                   />
                 </div>
                 <div className="px-3 flex flex-col wow fadeInUp">
-                  <div className="text-[#FF5C00] font-semibold text-lg ">
+                  <div className="text-[#FFC500] font-semibold text-lg ">
                     Email Address
                   </div>
                   <a
                     href="https://mail.google.com/mail/u/0/#inbox"
                     className="text-black font-medium text-lg"
                   >
-                   info@sumadula.ind.in
+                   info@sumadula.com
                   </a>
                 </div>
               </div>
@@ -47,11 +47,11 @@ function ContactUs() {
                   <IconPhoneCalling
                     className=""
                     size={40}
-                    style={{ color: "#FF5C00" }}
+                    style={{ color: "#FFC500 " }}
                   />
                 </div>
                 <div className="px-3 flex flex-col wow fadeInUp">
-                  <div className="text-[#FF5C00] font-semibold text-lg ">
+                  <div className="text-[#FFC500] font-semibold text-lg ">
                     Phone Number
                   </div>
                   <div className="text-black font-medium text-lg">
@@ -64,11 +64,11 @@ function ContactUs() {
                   <IconLocation
                     className=""
                     size={40}
-                    style={{ color: "#FF5C00" }}
+                    style={{ color: "#FFC500 " }}
                   />
                 </div>
                 <div className="px-3 flex flex-col mt-3">
-                  <div className="text-[#FF5C00] font-semibold text-lg ">
+                  <div className="text-[#FFC500] font-semibold text-lg ">
                     Location
                   </div>
                   <div className="text-black font-medium text-lg">
@@ -85,7 +85,7 @@ function ContactUs() {
               </div>
             </div>
             <div className="mx-5 sm:mx-5 md:w-3/5 lg:px-10 tracking-wider wow fadeInUp">
-              <div className="bg-white rounded-lg drop-shadow-lg p-4 ring-1 ring-[#FF5C00]">
+              <div className="bg-white rounded-lg drop-shadow-lg p-4 ring-1 ring-[#FFC500 ]">
                 <div className="lg:aspect-w-20 aspect-h-20 aspect-video">
                   <iframe
                     className="w-full h-full lg:w-100 lg:h-70"

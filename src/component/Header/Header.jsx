@@ -85,16 +85,16 @@ function Header() {
         id="Home"
         className="sticky top-0 left-0 right-0 w-full bg-white nav-bar sm:w-full z-10 "
       >
-        <div className=" sm:mx-auto md:mx-10 lg:mx-20 flex items-center justify-between py-5 ">
-          <div className="text-[#FF5C00] font-black font-mono text-3xl  ml-4">
+        <div className=" sm:mx-auto md:mx-10 lg:mx-20 flex items-center justify-between py-2 ">
+          <div className="text-[#FFC500] font-black font-mono text-3xl  ml-4">
             {/* SUMADULA */}
-            <img src={sumada} alt="wdwd" className="h-10"/>
+            <img src={sumada} alt="wdwd" className="h-20"/>
           </div>
           <nav>
             <div className="flex items-center justify-between md:hidden">
               <button
                 onClick={toggleMobileMenu}
-                className="text-black flex justify-end ml-10 hover:text-purple-600 focus:outline-none"
+                className="text-black flex justify-end ml-10  focus:outline-none"
               >
                 <svg
                   className="w-6 h-6 mx-11"
@@ -127,7 +127,7 @@ function Header() {
             >
               <li>
                 <Link
-                  className="text-black  hover:text-[#FF5C00] font-semibold font-sans cursor-pointer"
+                  className="text-black  hover:text-[#70C64F] font-semibold font-sans cursor-pointer"
                   activeClass="active"
                   to="home"
                   spy={true}
@@ -138,7 +138,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  className="text-black  hover:text-[#FF5C00] font-semibold font-sans cursor-pointer"
+                  className="text-black  hover:text-[#70C64F] font-semibold font-sans cursor-pointer"
                   to="aboutsection"
                   spy={true}
                   smooth={true}
@@ -148,7 +148,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  className="text-black  hover:text-[#FF5C00] font-semibold font-sans cursor-pointer"
+                  className="text-black  hover:text-[#70C64F] font-semibold font-sans cursor-pointer"
                   to="do"
                   spy={true}
                   smooth={true}
@@ -158,7 +158,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  className="text-black  hover:text-[#FF5C00] font-semibold font-sans cursor-pointer"
+                  className="text-black  hover:text-[#70C64F] font-semibold font-sans cursor-pointer"
                   to="work"
                   spy={true}
                   smooth={true}
@@ -168,7 +168,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  className="text-black  hover:text-[#FF5C00] font-semibold font-sans cursor-pointer"
+                  className="text-black  hover:text-[#70C64F] font-semibold font-sans cursor-pointer"
                   to="diffrence"
                   spy={true}
                   smooth={true}
@@ -178,7 +178,7 @@ function Header() {
               </li>
               <li className="">
                 <Link
-                  className="text-black hover:text-[#FF5C00] font-semibold font-sans cursor-pointer"
+                  className="text-black hover:text-[#70C64F] font-semibold font-sans cursor-pointer"
                   to="contactme"
                   spy={true}
                   smooth={true}
@@ -198,10 +198,10 @@ function Header() {
       )}
       <div className={`overlay-menu ${isMobileMenuOpen ? "open" : "hidden"}`}>
         <div className="flex justify-between p-5 ">
-          <div className="text-[#FF5C00] font-mono font-bold text-3xl ">SUMUDULA</div>
+        <img src={sumada} alt="wdwd" className="h-20"/>
           <button
             onClick={toggleMobileMenu}
-            className="text-black hover:text-[#FF5C00]  focus:outline-none"
+            className="text-black hover:text-[#70C64F]  focus:outline-none"
           >
             <svg
               className="w-6 h-6 mx-5"
@@ -231,7 +231,7 @@ function Header() {
         <ul className="p-10">
           <li className="">
             <Link
-              className="text-black  hover:text-[#FF5C00] text-xl font-bold font-sans cursor-pointer"
+              className="text-black  hover:text-[#70C64F] text-xl font-bold font-sans cursor-pointer"
               activeClass="active"
               to="home"
               spy={true}
@@ -243,7 +243,7 @@ function Header() {
           </li>
           <li className="">
             <Link
-              className="text-black  hover:text-[#FF5C00] text-xl font-bold font-sans cursor-pointer"
+              className="text-black  hover:text-[#70C64F] text-xl font-bold font-sans cursor-pointer"
               to="aboutsection"
               spy={true}
               smooth={true}
@@ -254,7 +254,7 @@ function Header() {
           </li>
           <li className="">
             <Link
-              className="text-black  hover:text-[#FF5C00] text-xl font-bold font-sans cursor-pointer"
+              className="text-black  hover:text-[#70C64F] text-xl font-bold font-sans cursor-pointer"
               to="do"
               spy={true}
               smooth={true}
@@ -265,7 +265,7 @@ function Header() {
           </li>
           <li className="">
             <Link
-              className="text-black  hover:text-[#FF5C00] text-xl font-bold font-sans cursor-pointer"
+              className="text-black  hover:text-[#70C64F] text-xl font-bold font-sans cursor-pointer"
               to="work"
               spy={true}
               smooth={true}
@@ -276,7 +276,7 @@ function Header() {
           </li>
           <li className="">
             <Link
-              className="text-black  hover:text-[#FF5C00] text-xl font-bold font-sans cursor-pointer"
+              className="text-black  hover:text-[#70C64F] text-xl font-bold font-sans cursor-pointer"
               to="diffrence"
               spy={true}
               smooth={true}
@@ -287,7 +287,7 @@ function Header() {
           </li>
           <li className="">
             <Link
-              className="text-black  hover:text-[#FF5C00] text-xl font-bold font-sans cursor-pointer"
+              className="text-black  hover:text-[#70C64F] text-xl font-bold font-sans cursor-pointer"
               to="contactme"
               spy={true}
               smooth={true}
@@ -311,7 +311,7 @@ function Header() {
                   Education is a
                 </div>
                 <div className="text-black text-4xl md:text-7xl font-bold font-sans wow fadeInUp mt-2">
-                  path to <span className="text-[#FF5C00]">success</span>
+                  path to <span className="text-[#FFC500]">success</span>
                 </div>
                 <div className="text-black text-4xl md:text-7xl font-bold font-sans wow fadeInUp mt-2">
                   in life
@@ -333,7 +333,7 @@ function Header() {
                       href="https://instagram.com/vagusimmigrations?igshid=MTI1ZDU5ODQ3Yw=="
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="transform transition duration-500 hover:scale-125 text-black hover:text-[#FF5C00]"
+                      className="transform transition duration-500 hover:scale-125 text-black hover:text-[#70C64F]"
                     >
                       <IconBrandInstagram size={40} className="" />
                     </a>
@@ -342,7 +342,7 @@ function Header() {
                       "
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="transform transition duration-500 hover:scale-125 text-black  hover:text-[#FF5C00]"
+                      className="transform transition duration-500 hover:scale-125 text-black  hover:text-[#70C64F]"
                     >
                       <IconBrandFacebook size={40} variant="Bold" />
                     </a>
@@ -350,7 +350,7 @@ function Header() {
                       href="https://www.linkedin.com/company/vagus-immigrations/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="transform transition duration-500 hover:scale-125 text-black  hover:text-[#FF5C00]"
+                      className="transform transition duration-500 hover:scale-125 text-black  hover:text-[#70C64F]"
                     >
                       <IconBrandLinkedin size={40} />
                     </a>
@@ -358,7 +358,7 @@ function Header() {
                       href="https://twitter.com/VAGUSIMMIG46592?t=PkW5gNapZCSd0zVVoZzBHw&s=09"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="transform transition duration-500 hover:scale-125 hover:text-[#FF5C00] text-black :text-[#FF5C00]"
+                      className="transform transition duration-500 hover:scale-125 hover:text-[#70C64F] text-black :text-[#FFC500]"
                     >
                       <IconBrandX size={40} />
                     </a>
@@ -366,7 +366,7 @@ function Header() {
                       href="https://youtube.com/@VagusImmigrations"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="transform transition duration-500 hover:scale-125 text-black  hover:text-[#FF5C00]"
+                      className="transform transition duration-500 hover:scale-125 text-black  hover:text-[#70C64F]"
                     >
                       <IconBrandYoutube size={40} />
                     </a>
@@ -385,7 +385,7 @@ function Header() {
             <div className="shadow-2xl p-5  rounded-lg w-full bg-[#F9F9F9] md:w-4/5 wow fadeInUp" style={{borderRadius:"20px"}}>
               <div className="flex flex-col md:flex-row justify-evenly md:justify-between ">
                 <div className="text-center mb-4 md:mb-0">
-                  <div className="text-[#FF5C00] font-bold text-lg md:text-xl">
+                  <div className="text-[#FFC500] font-bold text-lg md:text-xl">
                     {members}+
                   </div>
                   <div className="text-black font-bold text-lg md:text-xl">
@@ -393,7 +393,7 @@ function Header() {
                   </div>
                 </div>
                 <div className="text-center mb-4 md:mb-0">
-                  <div className="text-[#FF5C00] font-bold text-lg md:text-xl">
+                  <div className="text-[#FFC500] font-bold text-lg md:text-xl">
                    {volunteers}+
                   </div>
                   <div className="text-black font-bold text-lg md:text-xl">
@@ -401,7 +401,7 @@ function Header() {
                   </div>
                 </div>
                 <div className="text-center mb-4 md:mb-0">
-                  <div className="text-[#FF5C00] font-bold text-lg md:text-xl">
+                  <div className="text-[#FFC500] font-bold text-lg md:text-xl">
                     {cities}+
                   </div>
                   <div className="text-black font-bold text-lg md:text-xl">
@@ -409,7 +409,7 @@ function Header() {
                   </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-[#FF5C00] font-bold text-lg md:text-xl">
+                  <div className="text-[#FFC500] font-bold text-lg md:text-xl">
                     {childrenHelped}+
                   </div>
                   <div className="text-black font-bold text-lg md:text-xl">

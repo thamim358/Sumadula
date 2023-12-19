@@ -35,7 +35,7 @@ export const What = () => {
       </div>
       <div className=" bg-[#F7F7F7] section pb-10" id="whyme"          style={{ textAlign: "justify", textJustify: "auto" }}>
         <div className="">
-          <p className="text-4xl sm:text-4xl lg:text-5xl  text-[#FF5C00] font-bold text-center wow fadeInUp pt-4">
+          <p className="text-4xl sm:text-4xl lg:text-5xl  text-[#70C64F] font-bold text-center wow fadeInUp pt-4 wow fadeInUp">
             What we do
           </p>
           <div className="text-base text-[#7B7B7B] text-center mt-3 font-normal leading-relaxed mb-2 lg:mb-6 wow fadeInUp">
@@ -44,9 +44,9 @@ export const What = () => {
 
           <div class="flex justify-center  h-96 sm:h-auto">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 sm:mt-10 lg:mt-12">
-              <div class="ring-1 ring-orange-600 shadow-xl rounded-xl p-3 sm:p-5 w-full sm:w-3/5 mx-auto wow fadeInUp">
+              <div class="ring-1 ring-[#FFC500] shadow-xl rounded-xl p-3 sm:p-5 w-full sm:w-3/5 mx-auto wow fadeInUp">
                 <div class="flex items-center justify-center -mt-6 sm:-mt-9">
-                  <div class="rounded-full bg-orange-600 w-8 h-8 flex items-center justify-center">
+                  <div class="rounded-full bg-[#70C64F] w-8 h-8 flex items-center justify-center">
                     <span class="text-white text-lg font-bold">1</span>
                   </div>
                 </div>
@@ -55,9 +55,9 @@ export const What = () => {
                 </div>
               </div>
 
-              <div class="ring-1 ring-orange-600 shadow-xl rounded-xl p-3 sm:p-5 w-full sm:w-3/5 mx-auto wow fadeInUp">
+              <div class="ring-1 ring-[#FFC500] shadow-xl rounded-xl p-3 sm:p-5 w-full sm:w-3/5 mx-auto wow fadeInUp">
                 <div class="flex items-center justify-center -mt-6 sm:-mt-9">
-                  <div class="rounded-full bg-orange-600 w-8 h-8 flex items-center justify-center">
+                  <div class="rounded-full bg-[#70C64F] w-8 h-8 flex items-center justify-center">
                     <span class="text-white text-lg font-bold">2</span>
                   </div>
                 </div>
@@ -69,9 +69,9 @@ export const What = () => {
                   </div>
                 </div>
               </div>
-              <div class="ring-1 ring-orange-600 shadow-xl rounded-xl p-3 sm:p-5 w-full sm:w-3/5  mx-auto wow fadeInUp">
+              <div class="ring-1 ring-[#FFC500] shadow-xl rounded-xl p-3 sm:p-5 w-full sm:w-3/5  mx-auto wow fadeInUp">
                 <div class="flex items-center justify-center -mt-6 sm:-mt-9">
-                  <div class="rounded-full bg-orange-600 w-8 h-8 flex items-center justify-center">
+                  <div class="rounded-full bg-[#70C64F] w-8 h-8 flex items-center justify-center">
                     <span class="text-white text-lg font-bold">3</span>
                   </div>
                 </div>
@@ -86,9 +86,9 @@ export const What = () => {
 
           <div class="flex justify-center  h-96 sm:h-auto">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 sm:mt-10 lg:mt-12">
-              <div class="ring-1 ring-orange-600 shadow-xl rounded-xl p-3 sm:p-5 w-full sm:w-3/5 mx-auto wow fadeInUp">
+              <div class="ring-1 ring-[#FFC500] shadow-xl rounded-xl p-3 sm:p-5 w-full sm:w-3/5 mx-auto wow fadeInUp">
                 <div class="flex items-center justify-center -mt-6 sm:-mt-9">
-                  <div class="rounded-full bg-orange-600 w-8 h-8 flex items-center justify-center">
+                  <div class="rounded-full bg-[#70C64F] w-8 h-8 flex items-center justify-center">
                     <span class="text-white text-lg font-bold">4</span>
                   </div>
                 </div>
@@ -97,9 +97,9 @@ export const What = () => {
                 </div>
               </div>
 
-              <div class="ring-1 ring-orange-600 shadow-xl rounded-xl p-3 sm:p-5 w-full sm:w-3/5 mx-auto wow fadeInUp">
+              <div class="ring-1 ring-[#FFC500] shadow-xl rounded-xl p-3 sm:p-5 w-full sm:w-3/5 mx-auto wow fadeInUp">
                 <div class="flex items-center justify-center -mt-6 sm:-mt-9">
-                  <div class="rounded-full bg-orange-600 w-8 h-8 flex items-center justify-center">
+                  <div class="rounded-full bg-[#70C64F] w-8 h-8 flex items-center justify-center">
                     <span class="text-white text-lg font-bold">5</span>
                   </div>
                 </div>
@@ -109,9 +109,9 @@ export const What = () => {
                   </div>
                 </div>
               </div>
-              <div class="ring-1 ring-orange-600 shadow-xl rounded-xl p-3 sm:p-5 w-full sm:w-3/5 mx-auto wow fadeInUp">
+              <div class="ring-1 ring-[#FFC500] shadow-xl rounded-xl p-3 sm:p-5 w-full sm:w-3/5 mx-auto wow fadeInUp">
                 <div class="flex items-center justify-center -mt-6 sm:-mt-9">
-                  <div class="rounded-full bg-orange-600 w-8 h-8 flex items-center justify-center">
+                  <div class="rounded-full bg-[#70C64F] w-8 h-8 flex items-center justify-center">
                     <span class="text-white text-lg font-bold">6</span>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ export const What = () => {
           </div>
           <div className="p-8" id="work">
             <div className="bg-white shadow-xl rounded-lg mt-4 p-8" style={{borderRadius:"20px"}}>
-              <div className="text-[#FF5C00] font-bold text-3xl wow fadeInUp">
+              <div className="text-[#FFC500] font-bold text-3xl wow fadeInUp">
                 How we work
               </div>
               <div className="text-lg text-[#7B7B7B] wow fadeInUp font-normal leading-relaxed mb-2 lg:mb-6 mt-2">
@@ -135,7 +135,7 @@ export const What = () => {
                 schools.
               </div>
               <button
-                className="mt-3 flex gap-2 bg-[#FF5C00] self-start text-white font-bold py-2 px-4 rounded-full  wow fadeInUp cursor-pointer text-lg "
+                className="mt-3 flex gap-2 bg-[#70C64F] self-start text-white font-bold py-2 px-4 rounded-full  wow fadeInUp cursor-pointer text-lg "
                 type="submit"
                 onClick={() => setopenModal(true)}
               >
@@ -152,7 +152,7 @@ export const What = () => {
           <button
             key="generateReport"
             onClick={() => setopenModal(false)}
-            className=" flex justify-center items-center rounded-full bg-[#FF5C00] p-2 text-lg text-white font-sans font-bold transform transition duration-500 hover:scale-125"
+            className=" flex justify-center items-center rounded-full bg-[#FFC500 ] p-2 text-lg text-white font-sans font-bold transform transition duration-500 hover:scale-125"
           >
             Back{" "}
             <span className="pl-1    ">

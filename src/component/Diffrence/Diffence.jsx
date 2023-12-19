@@ -94,7 +94,7 @@ export const Diffrence = () => {
       </div>
       <div className=" section pb-10 mt-4" id="diffrence"   style={{ textAlign: "justify", textJustify: "auto" }}>
         <div className="">
-          <p className="text-4xl sm:text-4xl lg:text-5xl  text-[#FF5C00] font-bold text-center wow fadeInUp pt-4">
+          <p className="text-4xl sm:text-4xl lg:text-5xl  text-[#70C64F] font-bold text-center wow fadeInUp pt-4 wow fadeInUp">
            How we make difference
           </p>
 
@@ -103,14 +103,14 @@ export const Diffrence = () => {
               {cardsData.map((card, index) => (
                 <div className="flex" key={index}>
                   <div
-                    className="group  bg-white bg-opacity-5 rounded-lg ring-1 ring-[#FF5C00] shadow-lg transform hover:scale-110 transition-transform duration-500 "
+                    className="group  bg-white bg-opacity-5 rounded-lg ring-1 ring-[#FFC500] shadow-lg transform hover:scale-110 transition-transform duration-500 "
                     style={{ borderRadius: "20px" }}
                   >
                     <div className="text-center p-6 wow fadeInUp">
                       {card.logo}
                     </div>
                     <div className="px-4 py-2">
-                      <h3 className="text-base text-center text-[#FF5C00] uppercase font-bold mb-2 wow fadeInUp">
+                      <h3 className="text-base text-center text-[#70C64F] uppercase font-bold mb-2 wow fadeInUp">
                         {card.title}
                       </h3>
                       <p className="text-[#737070] text-center font-semibold text-base p-3 wow fadeInUp">
@@ -127,14 +127,14 @@ export const Diffrence = () => {
               {cardsData2.map((card, index) => (
                 <div className="flex" key={index}>
                   <div
-                    className="bg-white bg-opacity-5 rounded-lg ring-1 ring-[#FF5C00] shadow-lg transform hover:scale-110 transition-transform duration-500"
+                    className="bg-white bg-opacity-5 rounded-lg ring-1 ring-[#FFC500] shadow-lg transform hover:scale-110 transition-transform duration-500"
                     style={{ borderRadius: "20px" }}
                   >
                     <div className="text-center p-6 wow fadeInUp">
                       {card.logo}
                     </div>
                     <div className="px-4 py-2">
-                      <h3 className="text-base text-center text-[#FF5C00] uppercase font-bold mb-2 wow fadeInUp">
+                      <h3 className="text-base text-center text-[#70C64F] uppercase font-bold mb-2 wow fadeInUp">
                         {card.title}
                       </h3>
                       <p className="text-[#737070] text-center font-semibold text-base p-3 wow fadeInUp">

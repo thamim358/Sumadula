@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
 import "../Header/Header.scss";
 
-import WOW from "wow.js"
+import WOW from "wow.js";
 import right from "../img/tright.png";
 import { useNavigate } from "react-router-dom";
-import {
-  IconPhoneCall,
-} from "@tabler/icons-react";
+import { IconPhoneCall } from "@tabler/icons-react";
+import { Link } from "react-scroll";
 
 export const Sumadula = () => {
   const navigate = useNavigate();
@@ -21,11 +20,15 @@ export const Sumadula = () => {
       <div className="photos1 p-3">
         <img src={right} alt="Side Image" className="photo1 two1 " />
       </div>
-      <div className="section bg-[#F7F7F7] " id=""  style={{ textAlign: "justify", textJustify: "auto" }}>
+      <div
+        className="section bg-[#F7F7F7] "
+        id=""
+        style={{ textAlign: "justify", textJustify: "auto" }}
+      >
         <div className="py-10 sm:px-2 ">
           <div className="p-10 flex flex-col lg:flex-row justify-between items-start lg:items-center">
             <div className="w-full lg:w-1/2">
-              <div className="text-base text-[#FF5C00] font-bold mb-2 lg:mb-6 self-start wow fadeInUp">
+              <div className="text-base text-[#FFC500] font-bold mb-2 lg:mb-6 self-start wow fadeInUp">
                 DONATE TO SUMADULA
               </div>
               <div className="text-2xl text-[#737070] font-bold leading-relaxed mb-2 lg:mb-6 wow fadeInUp">
@@ -45,7 +48,7 @@ export const Sumadula = () => {
               </div>
               <div className="flex flex-col lg:flex-row">
                 <div className="lg:mr-8 mb-6 lg:mb-0">
-                  <div className="text-lg text-[#FF5C00] font-bold wow fadeInUp">
+                  <div className="text-lg text-[#70C64F] font-bold wow fadeInUp">
                     Sending Donations
                   </div>
                   <div className="text-black font-semibold mt-2 text-base wow fadeInUp">
@@ -53,7 +56,7 @@ export const Sumadula = () => {
                   </div>
                 </div>
                 <div className="lg:ml-8">
-                  <div className="text-lg text-[#FF5C00] font-bold">
+                  <div className="text-lg text-[#70C64F] font-bold">
                     Pick Up Services
                   </div>
                   <div className="text-black font-semibold mt-2 text-base wow fadeInUp">
@@ -62,13 +65,14 @@ export const Sumadula = () => {
                   </div>
                 </div>
               </div>
-
-              <button
-                className="mt-24  flex gap-2 bg-[#FF5C00] self-start text-white font-bold py-1 px-4 rounded-full wow fadeInUp cursor-pointer text-lg  transform transition duration-500 hover:scale-125"
-                type="submit"
-              >
-                Contact us <IconPhoneCall />
-              </button>
+              <Link to="contactme">
+                <button
+                  className="mt-16  flex gap-2 bg-[#70C64F] self-start text-white font-bold py-1 px-4 rounded-full wow fadeInUp cursor-pointer text-lg  transform transition duration-500 hover:scale-125"
+                  type="submit"
+                >
+                  Contact us <IconPhoneCall />
+                </button>
+              </Link>
             </div>
           </div>
         </div>

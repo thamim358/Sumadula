@@ -40,7 +40,7 @@ function Footer() {
   </div>  
             <div className="grid grid-cols-2 gap-24 gap-y-8 sm:gap-24 sm:grid-cols-2">
               <div>
-                <h2 className="mb-6 text-lg font-semibold text-[#FF5C00] wow fadeInUp">
+                <h2 className="mb-6 text-lg font-semibold text-[#FFC500] wow fadeInUp">
                   Links
                 </h2>
                 <ul className="wow fadeInUp">
@@ -109,7 +109,7 @@ function Footer() {
               </div>
               <div>
                 
-                <h2 className="mb-6 text-lg font-semibold text-[#FF5C00] wow fadeInUp">
+                <h2 className="mb-6 text-lg font-semibold text-[#FFC500] wow fadeInUp">
                   Follow us
                 </h2>
                 <ul className="wow fadeInUp">
@@ -150,7 +150,7 @@ function Footer() {
               © 2023{" "}
               <a
                 href="https://flowbite.com/"
-                className="hover:underline text-[#FF5C00]"
+                className="hover:underline text-[#70C64F]"
               >
                 Sumudula™
               </a>
@@ -170,7 +170,7 @@ const SocialLink = ({ href, icon, label }) => (
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    className="transform transition flex mb-3 items-center duration-500 hover:scale-125 text-black hover:text-orange-600"
+    className="transform transition flex mb-3 items-center duration-500 hover:scale-125 text-black hover:text-[#70C64F]"
   >
     {icon}
     <span className="text-sm mt-1 pl-2">{label}</span>

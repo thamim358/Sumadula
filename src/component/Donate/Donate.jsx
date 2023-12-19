@@ -16,7 +16,7 @@ function Donate() {
         <IconBook
           className="transform transition duration-500 hover:scale-125"
           size={40}
-          style={{ color: "#FF5C00" }}
+          style={{ color: "#FFC500 " }}
         />
       ),
       title: "Book",
@@ -26,7 +26,7 @@ function Donate() {
         <IconPencil
         className="transform transition duration-500 hover:scale-125"
         size={40}
-        style={{ color: "#FF5C00" }}
+        style={{ color: "#FFC500 " }}
       />
       ),
       title: "Pens",
@@ -36,7 +36,7 @@ function Donate() {
         <IconGraph
         className="transform transition duration-500 hover:scale-125"
         size={40}
-        style={{ color: "#FF5C00" }}
+        style={{ color: "#FFC500 " }}
       />
       ),
       title: "Graphs",
@@ -46,7 +46,7 @@ function Donate() {
         <IconInbox
           className="transform transition duration-500 hover:scale-125"
           size={40}
-          style={{ color: "#FF5C00" }}
+          style={{ color: "#FFC500 " }}
         />
       ),
       title: "Pencil Box",
@@ -56,7 +56,7 @@ function Donate() {
           <IconCalculator
             className="transform transition duration-500 hover:scale-125"
             size={40}
-            style={{ color: "#FF5C00" }}
+            style={{ color: "#FFC500 " }}
           />
         ),
         title: "Calculator",
@@ -66,7 +66,7 @@ function Donate() {
           <IconPalette
             className="transform transition duration-500 hover:scale-125"
             size={40}
-            style={{ color: "#FF5C00" }}
+            style={{ color: "#FFC500 " }}
           />
         ),
         title: "Paints",
@@ -78,7 +78,7 @@ function Donate() {
         <IconGeometry
           className="transform transition duration-500 hover:scale-125"
           size={40}
-          style={{ color: "#FF5C00" }}
+          style={{ color: "#FFC500 " }}
         />
       ),
       title: "Geomentry",
@@ -88,7 +88,7 @@ function Donate() {
         <IconShirtSport
         className="transform transition duration-500 hover:scale-125"
         size={40}
-        style={{ color: "#FF5C00" }}
+        style={{ color: "#FFC500 " }}
       />
       ),
       title: "Uniforms",
@@ -98,7 +98,7 @@ function Donate() {
         <IconGrowth
         className="transform transition duration-500 hover:scale-125"
         size={40}
-        style={{ color: "#FF5C00" }}
+        style={{ color: "#FFC500 " }}
       />
       ),
       title: "Food Grains",
@@ -108,7 +108,7 @@ function Donate() {
         <IconBriefcase
         className="transform transition duration-500 hover:scale-125"
         size={40}
-        style={{ color: "#FF5C00" }}
+        style={{ color: "#FFC500 " }}
       />
       ),
       title: "School Bag",
@@ -118,7 +118,7 @@ function Donate() {
           <IconScissors
             className="transform transition duration-500 hover:scale-125"
             size={40}
-            style={{ color: "#FF5C00" }}
+            style={{ color: "#FFC500 " }}
           />
         ),
         title: "Scissors",
@@ -128,7 +128,7 @@ function Donate() {
           <IconShoe
             className="transform transition duration-500 hover:scale-125"
             size={40}
-            style={{ color: "#FF5C00" }}
+            style={{ color: "#FFC500 " }}
           />
         ),
         title: "Shoes",
@@ -140,7 +140,7 @@ function Donate() {
         <IconWifi
           className="transform transition duration-500 hover:scale-125"
           size={40}
-          style={{ color: "#FF5C00" }}
+          style={{ color: "#FFC500 " }}
         />
       ),
       title: "Wifi",
@@ -150,7 +150,7 @@ function Donate() {
         <IconDeviceLaptop
         className="transform transition duration-500 hover:scale-125"
         size={40}
-        style={{ color: "#FF5C00" }}
+        style={{ color: "#FFC500 " }}
       />
       ),
       title: "Laptops",
@@ -160,7 +160,7 @@ function Donate() {
         <IconDeviceProjector
         className="transform transition duration-500 hover:scale-125"
         size={40}
-        style={{ color: "#FF5C00" }}
+        style={{ color: "#FFC500 " }}
       />
       ),
       title: "Projectors",
@@ -170,7 +170,7 @@ function Donate() {
         <IconDesk
         className="transform transition duration-500 hover:scale-125"
         size={40}
-        style={{ color: "#FF5C00" }}
+        style={{ color: "#FFC500 " }}
       />
       ),
       title: "Desk",
@@ -180,7 +180,7 @@ function Donate() {
           <IconArmchair
             className="transform transition duration-500 hover:scale-125"
             size={40}
-            style={{ color: "#FF5C00" }}
+            style={{ color: "#FFC500 " }}
           />
         ),
         title: "Chair",
@@ -190,7 +190,7 @@ function Donate() {
           <IconBallVolleyball
             className="transform transition duration-500 hover:scale-125"
             size={40}
-            style={{ color: "#FF5C00" }}
+            style={{ color: "#FFC500 " }}
           />
         ),
         title: "Sports",
@@ -200,7 +200,7 @@ function Donate() {
     <>
       <div className="section wave p-7" id="aboutsection">
         <div className="py-10 px-5 lg:mx-12 sm:mx-4 ">
-          <div className="text-5xl text-[#FF5C00] font-bold mb-2 lg:mb-6 self-start wow fadeInUp">
+          <div className="text-4xl sm:text-4xl lg:text-5xl  text-[#70C64F] font-bold text-start  wow fadeInUp pt-4 wow fadeInUp mb-5">
           Donate Essential Products
           </div>
           <div className="text-xl text-[#7D6A6A] font-bold mb-2 wow fadeInUp self-start">
@@ -246,7 +246,7 @@ function Donate() {
               </div>
             </div>
           </div>
-          <div className="text-3xl text-[#FF5C00] font-bold mb-2 lg:mb-6 self-start mt-4">
+          <div className="text-3xl text-[#70C64F] font-bold mb-2 lg:mb-6 self-start mt-4">
             For Schools
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 gap-4 wow fadeInUp">

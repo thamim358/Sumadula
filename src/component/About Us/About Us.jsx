@@ -31,23 +31,23 @@ export const AboutUs = () => {
           </div>
 
           <div className="w-full lg:w-1/2 flex flex-col justify-start items-start lg:items-end  ">
-            <div className="text-5xl text-[#FF5C00] font-bold mb-2 lg:mb-6 self-start  wow fadeInUp">
+            <div className="text-4xl sm:text-4xl lg:text-5xl  text-[#FFC500] font-bold text-start wow fadeInUp pt-4 wow fadeInUp">
               Get to know about Us
             </div>
-            <div className="text-xl text-[#7B7B7B] font-normal leading-relaxed mb-2 lg:mb-6 wow fadeInUp">
+            <div className="text-xl text-[#7B7B7B] font-normal leading-relaxed mb-2 mt-4 lg:mb-6 wow fadeInUp">
               Sumadula, established in 2023, is an educational trust with a
               dedicated mission: to empower and support girl child education. We
               focus on making a tangible difference by donating essential
               products that directly enhance the educational journey of young
               students.
             </div>
-            <button
-              className="mt-3 flex gap-2 bg-[#FF5C00] self-start text-white font-bold py-1 px-4 rounded-full  wow fadeInUp cursor-pointer text-lg transform transition duration-500 hover:scale-125"
+            {/* <button
+              className="mt-3 flex gap-2 bg-[#FFC500 ] self-start text-white font-bold py-1 px-4 rounded-full  wow fadeInUp cursor-pointer text-lg transform transition duration-500 hover:scale-125"
               type="submit"
             >
               MORE <IconArrowElbowRight />
               
-            </button>
+            </button> */}
           </div>
         
            
