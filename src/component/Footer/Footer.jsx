@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import footerImage from "../img/sumadula.png";
-import sym from "../img/shape 2.png"
+// import sym from "../img/shape 2.png"
 import WOW from "wow.js";
 import "./Footer.scss"
-import { Link } from "react-scroll";
+import { Link  } from "react-router-dom";
 import {
   IconBrandInstagram,
   IconBrandFacebook,
@@ -36,21 +36,20 @@ function Footer() {
               </a>
             </div>
             <div className="footers p-3">
-    <img src={sym} alt="Side Image" className="footer two4" />
+    {/* <img src={sym} alt="Side Image" className="footer two4" /> */}
   </div>  
             <div className="grid grid-cols-2 gap-24 gap-y-8 sm:gap-24 sm:grid-cols-2">
               <div>
                 <h2 className="mb-6 text-lg font-semibold text-[#FFC500] wow fadeInUp">
-                  Links
+                  Link
                 </h2>
                 <ul className="wow fadeInUp">
                   <li className="mb-3">
                     <Link
                       className="text-black  hover:text-orange-600 font-medium font-sans cursor-pointer "
                       activeClass="active"
-                      to="home"
-                      spy={true}
-                      smooth={true}
+                      to="/"
+                     
                     >
                       Home
                     </Link>
@@ -58,9 +57,8 @@ function Footer() {
                   <li className="mb-3">
                     <Link
                       className="text-black  hover:text-orange-600 font-medium font-sans cursor-pointer"
-                      to="aboutsection"
-                      spy={true}
-                      smooth={true}
+                      to="/aboutus"
+                     
                     >
                       About Us
                     </Link>
@@ -68,9 +66,8 @@ function Footer() {
                   <li className="mb-3">
                     <Link
                       className="text-black  hover:text-orange-600 font-medium font-sans cursor-pointer"
-                      to="do"
-                      spy={true}
-                      smooth={true}
+                      to="/what"
+                     
                     >
                       What we do
                     </Link>
@@ -78,19 +75,17 @@ function Footer() {
                   <li className="mb-3">
                     <Link
                       className="text-black  hover:text-orange-600 font-medium font-sans cursor-pointer"
-                      to="work"
-                      spy={true}
-                      smooth={true}
+                      to="/donate"
+                     
                     >
-                      How we work
+                      Donate Essential
                     </Link>
                   </li>
                   <li className="mb-3">
                     <Link
                       className="text-black  hover:text-orange-600 font-medium font-sans cursor-pointer"
-                      to="diffrence"
-                      spy={true}
-                      smooth={true}
+                      to="/diffrence"
+                      
                     >
                       How we Make Difference
                     </Link>
@@ -98,9 +93,8 @@ function Footer() {
                   <li className="mb-3">
                     <Link
                       className="text-black  hover:text-orange-600 font-medium font-sans cursor-pointer"
-                      to="contactme"
-                      spy={true}
-                      smooth={true}
+                      to="/contactus"
+                      
                     >
                       Contact Us
                     </Link>
@@ -156,6 +150,20 @@ function Footer() {
               </a>
               . All Rights Reserved.
             </span>
+            <div className="flex items-center space-x-4">
+        <Link to="/terms" className="text-gray-500 hover:text-gray-900">
+          Terms & Conditions
+        </Link>
+        <Link to="/privacy" className="text-gray-500 hover:text-gray-900">
+          Privacy Policy
+        </Link>
+        <Link to="/cookies" className="text-gray-500 hover:text-gray-900">
+          Cookies Policy
+        </Link>
+        <Link to="/license" className="text-gray-500 hover:text-gray-900">
+         Licencing
+        </Link>
+      </div>
           </div>
          
         </div>

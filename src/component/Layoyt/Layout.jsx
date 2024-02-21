@@ -7,6 +7,7 @@ import Donate from "../Donate/Donate";
 import Sumadula from "../Sumadula/Sumadula";
 import ContactUs from "../Contact us/Contact";
 import Footer from "../Footer/Footer";
+import Landing from "../Landing/Landing";
 
 function Layout() {
   useEffect(() => {
@@ -16,14 +17,13 @@ function Layout() {
     
     <>
     <div className="">
-      <Header/>
+      <Landing/>
       <AboutUs/>
       <What/>
       <Diffrence/>
       <Donate/>
       <Sumadula/>
       <ContactUs/>
-      <Footer/>
       </div>
     </>
   );
